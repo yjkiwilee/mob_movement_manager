@@ -56,7 +56,7 @@ Now open the world / server in Minecraft and run the `/reload` command to re-loa
 
 If you see a message like the following, congratulations! The installation is complete.
 
-<img src="git/imgs/readme_1.png" width="400">
+<img src="git/imgs/readme_1.png" width="500">
 
 # Further resources
 
