@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Mob Movement Manager has been successfully installed!","color":"green"}]
