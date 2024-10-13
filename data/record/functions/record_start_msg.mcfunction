@@ -1,0 +1,1 @@
+$tellraw @a[team=admin] {"text":"Recording started for path id $(id)."}

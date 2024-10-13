@@ -1,0 +1,1 @@
+scoreboard players set @s anim_movement.playing.start_trigger 1

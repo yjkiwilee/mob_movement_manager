@@ -1,0 +1,1 @@
+$tellraw @a[team=admin] {"text":"Unlinked dummy from path id $(id)."}.

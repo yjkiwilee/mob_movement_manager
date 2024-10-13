@@ -1,0 +1,1 @@
+scoreboard players set @a anim_movement.debug_toggle_trigger 1

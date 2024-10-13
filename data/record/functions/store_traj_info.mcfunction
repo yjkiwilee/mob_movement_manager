@@ -1,0 +1,1 @@
+scoreboard players operation #temp anim_movement.recording.has_dummy = @s anim_movement.recording.has_dummy

@@ -1,0 +1,9 @@
+{
+    "values": [
+        "anim_movement:tick_set_offhand",
+        "anim_movement:tick_eye_update",
+        "anim_movement:tick_right_click",
+        "anim_movement:tick_triggers",
+        "anim_movement:tick"
+    ]
+}

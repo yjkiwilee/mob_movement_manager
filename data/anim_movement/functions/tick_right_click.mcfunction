@@ -1,0 +1,2 @@
+execute as @a[team=admin] if score @s anim_movement.right_click matches 1.. run function anim_movement:on_click
+execute as @a if score @s anim_movement.right_click matches 1.. run scoreboard players set @s anim_movement.right_click 0

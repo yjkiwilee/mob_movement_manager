@@ -1,0 +1,6 @@
+{
+    "values": [
+        "anim_movement:init",
+        "#minecraft:tick"
+    ]
+}

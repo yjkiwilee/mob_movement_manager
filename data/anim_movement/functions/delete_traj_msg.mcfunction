@@ -1,0 +1,1 @@
+$tellraw @a[team=admin] {"text":"Deleted path id $(id)."}

@@ -1,0 +1,1 @@
+$tellraw @a[team=admin] {"text":"Playing paused for path id $(id)."}.

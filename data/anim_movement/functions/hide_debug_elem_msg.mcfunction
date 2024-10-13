@@ -1,0 +1,1 @@
+$tellraw @a[team=admin] {"text":"Hid armorstands and labels for path $(id)."}

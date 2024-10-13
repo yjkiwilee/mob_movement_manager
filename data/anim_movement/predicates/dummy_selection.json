@@ -1,0 +1,45 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type": "player"
+                }
+            }
+        },
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type": "armor_stand"
+                }
+            }
+        },
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type": "item"
+                }
+            }
+        },
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Tags:[\"dummy\"]}"
+                }
+            }
+        }
+    ]
+}

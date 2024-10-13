@@ -1,0 +1,1 @@
+$tellraw @a[team=admin] {"text":"Playing started for path id $(id)."}.

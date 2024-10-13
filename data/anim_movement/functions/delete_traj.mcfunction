@@ -1,0 +1,1 @@
+scoreboard players set @a anim_movement.delete_traj_trigger 1
