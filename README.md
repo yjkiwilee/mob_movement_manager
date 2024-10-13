@@ -1,6 +1,6 @@
 # Mob movement manager datapack
 
-This datapack for Minecraft 1.20.2 is written to allow movement of mobs to be manipulated and managed.
+This datapack for **Minecraft 1.20.2** is written to allow movement of mobs to be manipulated and managed.
 
 # Installation & setup
 
@@ -12,8 +12,10 @@ To download the contents of this repository as a .zip file, click on '**Code**' 
 mob_movement_manager-master
 ∟ data
 ∟ pack.mcmeta
-∟ README.md
+∟ ... (other non-essential files)
 ```
+
+You may delete all the files/folders except for `data` and `pack.mcmeta`, as those two are the only requirements for this datapack to function.
 
 ## 2. Installing the datapack
 
@@ -28,7 +30,6 @@ datapacks
 ∟ mob_movement_manager
   ∟ data
   ∟ pack.mcmeta
-  ∟ README.md
 ```
 
 ### 2.2. Multiplayer
@@ -43,7 +44,6 @@ datapacks
 ∟ mob_movement_manager
   ∟ data
   ∟ pack.mcmeta
-  ∟ README.md
 ```
 
 ## 3. Testing the datapack
@@ -60,3 +60,6 @@ If you see a message like the following, congratulations! The installation is co
 
 # Further resources
 
+To find out how to use the core features of this datapack, see the [Getting Started guide](guides/GETTING_STARTED.md).
+
+If you are familiar with commands, you can do more with the datapack using certain work-arounds. To learn more, see the [Workaround Q&A](guides/WORKAROUND_QA.md).
