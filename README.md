@@ -48,4 +48,15 @@ datapacks
 
 ## 3. Testing the datapack
 
-Now open the world / server in Minecraft and run the `/reload` command. 
+Now open the world / server in Minecraft and run the `/reload` command to re-load the datapacks. To test the installation, run the following command:
+
+```
+/function anim_movement:test
+```
+
+If you see a message like the following, congratulations! The installation is complete.
+
+<img src="git/imgs/readme_1.png" width="400">
+
+# Further resources
+
