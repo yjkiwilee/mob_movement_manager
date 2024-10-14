@@ -74,7 +74,7 @@ An example workflow using these tools may be as follows:
 6. Use the **Next/Previous path tools** or the **path manager UI** to switch to a different path and start another recording
 7. Use the **path manager UI** to play/pause paths whenever needed
 
-## Known issues & answers
+## Issues & answers
 
 - **Right clicks with the tools don't seem to register from time to time.**
 
@@ -83,3 +83,7 @@ Although the datapack has been greatly optimised for the tools to be as responsi
 - **A path doesn't seem to have any dummy attached to it but the path manager UI shows that there is still a dummy.**
 
 Some issues with tags used by the datapack may cause this issue. If the dummy is present in the world, starting the animation will instantly teleport the dummy mob back to the path. Otherwise, the datapack will automatically update the dummy presence status and you will see that it goes back to 0 as expected after stopping and starting the animation.
+
+- **Things have gone horribly wrong and nothing in the datapack seems to work anymore.**
+
+If the inner logics of the datapack ever malfunctions in unexpected ways, it may be worth resetting the dummies and paths. See the [Advanced features](ADVANCED_FEATURES.md) document for more detail on how to do this.
