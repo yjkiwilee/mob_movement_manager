@@ -56,7 +56,8 @@ You can also click on the values within the table to perform certain actions. Th
 | Column | Description | Functionality when clicked |
 | - | - | - |
 | **Path ID** | Path ID | Quickly selects the path |
-| **Dummy?** | Whether the path has an assigned dummy | Gives the glowing effect to the dummy for 5 seconds |
+| **Dummy?** (Number) | Whether the path has an assigned dummy | Gives the glowing effect to the dummy for 5 seconds |
+| **Dummy?** (V/H) | Whether the dummy is visible (V) or hidden (H) | Show/hide dummy |
 | **Playing?** | Whether the path is currently playing or not | Plays/pauses the path |
 | **Debug?** | Whether the armor stands & labels are visible | Toggles armor stand & label visibility |
 | **Delete** | | Deletes the path |
@@ -74,7 +75,11 @@ An example workflow using these tools may be as follows:
 6. Use the **Next/Previous path tools** or the **path manager UI** to switch to a different path and start another recording
 7. Use the **path manager UI** to play/pause paths whenever needed
 
-## Issues & answers
+## Notes, issues & answers
+
+- **Please note that this datapack hasn't been tested on a multiplayer server yet!**
+
+The datapack should function as intended on a multiplayer server, but some instabilities are expected. In a multiplayer setting, **all admins (i.e. people who have obtained the tools via the relevant command) will be sharing the same set of paths**. Especially, more than one person trying to record the same path at the same time will likely lead to issues, so please make sure to coordinate carefully to prevent this from happening.
 
 - **Right clicks with the tools don't seem to register from time to time.**
 
@@ -83,6 +88,10 @@ Although the datapack has been greatly optimised for the tools to be as responsi
 - **A path doesn't seem to have any dummy attached to it but the path manager UI shows that there is still a dummy.**
 
 Some issues with tags used by the datapack may cause this issue. If the dummy is present in the world, starting the animation will instantly teleport the dummy mob back to the path. Otherwise, the datapack will automatically update the dummy presence status and you will see that it goes back to 0 as expected after stopping and starting the animation.
+
+- **Message feedbacks from using tools are visible to other admins and not just me.**
+
+This is largely intended, as it may help coordinate path management actions better between admins. However, an option to make other admins' messages silent may be added in the future.
 
 - **Things have gone horribly wrong and nothing in the datapack seems to work anymore.**
 

@@ -40,3 +40,18 @@ All dummies & paths assigned/created by this datapack can be reset (removed) usi
 /function anim_movement:reset
 ```
 
+## Revoke & give admin status
+
+Internally, the datapack assigns all admins (i.e. users who have run the `/function anim_movement:give_controls` command) to the `admin` *team*. This means that it's possible to revoke or give admin status from/to a user independently of the tools. Of course, if a user has access to commands, nothing is stopping them from revoking & giving themselves admin status however many times they'd like. The lack of admin status for the purpose of the datapack just means that you (1) will not see tool usage messages from other admins and (2) will not be able to use the tools yourself.
+
+**To revoke your own admin status**, you can use this command:
+
+```
+/function anim_movement:leave_admin
+```
+
+**To restore your own admin status**, you can use this command:
+
+```
+/function anim_movement:set_admin
+```
