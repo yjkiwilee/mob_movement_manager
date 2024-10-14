@@ -60,6 +60,6 @@ If you see a message like the following, congratulations! The installation is co
 
 # Further resources
 
-To find out how to use the core features of this datapack, see the [Getting Started guide](guides/GETTING_STARTED.md).
+To find out how to use the core features of this datapack, see the [Getting Started](guides/GETTING_STARTED.md) guide.
 
-If you are familiar with commands, you can do more with the datapack using certain work-arounds. To learn more, see the [Workaround Q&A](guides/WORKAROUND_QA.md).
+If you are familiar with commands, you can do more with the datapack by directly calling some functions within the datapack. To learn more, see the [Advanced Features](guides/ADVANCED_FEATURES.md) document.
