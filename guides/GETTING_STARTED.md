@@ -22,7 +22,7 @@ This is where you can see the list of admins and the **ID of the current path** 
 
 <img src="../git/imgs/gs_2.png" width="400">
 
-You can hover over each of these tools to see what they do. **To use a tool**, hold a tool in your primary slot and **press right click**. You will see that holding a tool automatically puts an eye of ender in your secondary slot. The eye of ender is there to detect right click events.
+You can hover over each of these tools to see their names. **To use a tool**, hold a tool in your primary slot and **press right click**. You will see that holding a tool automatically puts an eye of ender in your secondary slot. The eye of ender is there to detect right click events.
 
 The table below summarises their roles.
 
