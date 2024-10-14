@@ -78,7 +78,7 @@ An example workflow using these tools may be as follows:
 
 - **Right clicks with the tools don't seem to register from time to time.**
 
-Although the datapack has been greatly optimised for the tools to be as responsive as possible, some lags may remain. Additionally, right-clicking while facing certain mobs and entities (e.g. armor stands) may not register because some default response to right-clicking is preventing the datapack from detecting the click event. Making sure to avoid facing mobs and entities when right-clicking may help.
+Although the datapack has been greatly optimised for the tools to be as responsive as possible, some lags may remain. Additionally, right-clicking while facing certain mobs and other entities (e.g. regular armor stands) may not register because some default response to right-clicking is preventing the datapack from detecting the click event. Making sure to avoid facing mobs and entities when right-clicking may help.
 
 - **A path doesn't seem to have any dummy attached to it but the path manager UI shows that there is still a dummy.**
 
