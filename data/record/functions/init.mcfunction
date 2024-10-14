@@ -9,6 +9,7 @@ scoreboard objectives add anim_movement.recording.num_frames dummy
 scoreboard objectives add anim_movement.recording.toggle_trigger dummy
 scoreboard objectives add anim_movement.recording.has_dummy dummy
 scoreboard objectives add anim_movement.recording.debug_visibility dummy
+scoreboard objectives add anim_movement.recording.dummy_visibility dummy
 
 scoreboard players set @a anim_movement.recording 0
 scoreboard players set @a anim_movement.recording.prev 0

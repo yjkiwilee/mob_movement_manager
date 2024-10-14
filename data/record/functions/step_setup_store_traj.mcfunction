@@ -6,6 +6,9 @@ scoreboard players set @s anim_movement.playing.current_frame 0
 scoreboard players set #temp anim_movement.recording.has_dummy 0
 execute as @e[tag=store_traj,type=armor_stand] if score @s anim_movement.traj_id = #player anim_movement.traj_id run function record:store_traj_info
 scoreboard players operation @s anim_movement.recording.has_dummy = #temp anim_movement.recording.has_dummy
+scoreboard players set #temp anim_movement.recording.dummy_visibility 1
+execute as @e[tag=store_traj,type=armor_stand] if score @s anim_movement.traj_id = #player anim_movement.traj_id run scoreboard players operation #temp anim_movement.recording.dummy_visibility = @s anim_movement.recording.dummy_visibility
+scoreboard players operation @s anim_movement.recording.dummy_visibility = #temp anim_movement.recording.dummy_visibility
 scoreboard players set @s anim_movement.recording.debug_visibility 0
 
 # Set label

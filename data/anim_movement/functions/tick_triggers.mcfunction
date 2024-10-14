@@ -18,3 +18,6 @@ execute as @a if score @s anim_movement.delete_traj_trigger matches 1 run scoreb
 
 execute as @a if score @s anim_movement.debug_toggle_trigger matches 1 run function anim_movement:toggle_debug_elem_trigger
 execute as @a if score @s anim_movement.debug_toggle_trigger matches 1 run scoreboard players set @s anim_movement.debug_toggle_trigger 0
+
+execute as @a if score @s anim_movement.toggle_dummy_visibility_trigger matches 1 run function anim_movement:toggle_dummy_visibility_trigger
+execute as @a if score @s anim_movement.toggle_dummy_visibility_trigger matches 1 run scoreboard players set @s anim_movement.toggle_dummy_visibility_trigger 0

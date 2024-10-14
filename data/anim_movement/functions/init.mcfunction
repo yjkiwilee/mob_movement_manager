@@ -34,8 +34,14 @@ scoreboard players set $global anim_movement.labels_visibility 1
 scoreboard objectives add anim_movement.one dummy
 scoreboard players set $global anim_movement.one 1
 
+scoreboard objectives add anim_movement.zero dummy
+scoreboard players set $global anim_movement.zero 0
+
 scoreboard objectives add anim_movement.delete_traj_trigger dummy
 scoreboard players set @a anim_movement.delete_traj_trigger 0
+
+scoreboard objectives add anim_movement.toggle_dummy_visibility_trigger dummy
+scoreboard players set @a anim_movement.toggle_dummy_visibility_trigger 0
 
 scoreboard objectives add anim_movement.debug_toggle_trigger dummy
 scoreboard players set @a anim_movement.debug_toggle_trigger 0

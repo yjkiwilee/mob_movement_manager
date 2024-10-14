@@ -1,0 +1,1 @@
+scoreboard players set @a anim_movement.toggle_dummy_visibility_trigger 1
