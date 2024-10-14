@@ -1,6 +1,6 @@
 # Mob movement manager datapack
 
-This datapack for **Minecraft 1.20.2** is written to allow movement of mobs to be manipulated and managed.
+This datapack for **Minecraft 1.20.2+** is written to allow movement of mobs to be manipulated and managed.
 
 # Installation & setup
 
