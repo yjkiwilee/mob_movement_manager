@@ -1,5 +1,5 @@
 # Put NBT tag to dummy with the corresponding id
-$execute as @e[tag=dummy] if score @s anim_movement.traj_id matches $(id) run data modify entity @s Tags prepend value "tp_target"
+$execute as @e[tag=_dummy] if score @s anim_movement.traj_id matches $(id) run data modify entity @s Tags prepend value "tp_target"
 # Teleport player to target
 tp @s @e[tag=tp_target,limit=1]
 # Remove tp taget NBT tag

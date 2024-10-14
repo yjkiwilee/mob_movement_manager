@@ -49,5 +49,13 @@ scoreboard players set @a anim_movement.eye_cooldown_counter 0
 scoreboard objectives add anim_movement.eye_pressed dummy
 scoreboard players set @a anim_movement.eye_pressed 0
 
+scoreboard objectives add anim_movement.compare_temp dummy
+scoreboard objectives add anim_movement.tag_id_found dummy
+scoreboard objectives add anim_movement.find_tag_i dummy
+scoreboard objectives add anim_movement.list_not_empty dummy
+scoreboard objectives add anim_movement.find_tag_return dummy
+
+scoreboard objectives add anim_movement.has_dummy_tag dummy
+
 function record:init
 function play:init
