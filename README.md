@@ -64,4 +64,4 @@ To find out **how to use the core features of this datapack**, see the [Getting 
 
 **If you are familiar with commands**, you can do more with the datapack by directly calling some functions within the datapack. To learn more, see the [Advanced Features](guides/ADVANCED_FEATURES.md) document.
 
-For a table of functions contained within this datapack, please see the [List of Functions](guides/LIST_OF_FUNCTIONS.md) document (WIP!).
+For a table of functions contained within this datapack (which may be useful for those intending to do further development on this datapack), please see the [List of Functions](guides/LIST_OF_FUNCTIONS.md) document (WIP!).
