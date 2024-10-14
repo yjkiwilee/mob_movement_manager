@@ -31,7 +31,7 @@ The table below summarises their roles.
 | **Open path manager** | Open the path manager UI explained in the section below. | Book |
 | **Select previous path** | Reduces the current selected path ID by 1. | Iron nugget |
 | **Select next path** | Increases the current selected path ID by 1. | Gold nugget |
-| **Start/stop recording** | Start or stop recording the current selected path. | Red dye |
+| **Start/stop recording** | Start or stop recording the current selected path. Armor stands showing the recorded path will be temporarily visible during recording. | Red dye |
 | **Start/stop playing** | Start or stop playing the current selected path. | Lime dye |
 | **Toggle labels & armor stands visibility** | Show or hide the armor stands recording the path and the labels above the path and corresponding dummy. | Paper |
 | **Select dummy** | Select a dummy mob for the current path by using the tool while standing close (&lt; 3 blocks distance) to the target. | Blaze rod |
