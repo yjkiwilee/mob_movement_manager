@@ -14,7 +14,7 @@ For example, if you are assigning a mob with a tag `special_tag` to **path numbe
 
 The way this command works is identical to the **Select dummy tool**, but it uses the tag rather than proximity to specify the mob to be assigned to the path.
 
-**NB:** This command sorts all entities with the given tag by distance, prioritising the entity that is closest to the user. To prevent unexpected mobs from being selected, either use this command while in reasonable proximity to the target or make sure that the tag being used is unique to the target and not found with any other entity.
+**NB:** This command selects ALL entities with a given tag, meaning that the tag used to select an entity must be unique.
 
 ## Manually set the current path ID
 
