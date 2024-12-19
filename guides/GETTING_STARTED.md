@@ -77,22 +77,22 @@ An example workflow using these tools may be as follows:
 
 ## Notes, issues & answers
 
-- **Please note that this datapack hasn't been tested on a multiplayer server yet!**
+### Please note that this datapack hasn't been tested on a multiplayer server yet!
 
 The datapack should function as intended on a multiplayer server, but some instabilities are expected. In a multiplayer setting, **all admins (i.e. people who have obtained the tools via the relevant command) will be sharing the same set of paths**. Especially, more than one person trying to record the same path at the same time will likely lead to issues, so please make sure to coordinate carefully to prevent this from happening.
 
-- **Right clicks with the tools don't seem to register from time to time.**
+### Right clicks with the tools don't seem to register from time to time.
 
 Although the datapack has been greatly optimised for the tools to be as responsive as possible, some lags may remain. Additionally, right-clicking while facing certain mobs and other entities (e.g. regular armor stands) may not register because some default response to right-clicking is preventing the datapack from detecting the click event. Making sure to avoid facing mobs and entities when right-clicking may help.
 
-- **A path doesn't seem to have any dummy attached to it but the path manager UI shows that there is still a dummy.**
+### A path doesn't seem to have any dummy attached to it but the path manager UI shows that there is still a dummy.
 
 Some issues with tags used by the datapack may cause this issue. If the dummy is present in the world, starting the animation will instantly teleport the dummy mob back to the path. Otherwise, the datapack will automatically update the dummy presence status and you will see that it goes back to 0 as expected after stopping and starting the animation.
 
-- **Message feedbacks from using tools are visible to other admins and not just me.**
+### Message feedbacks from using tools are visible to other admins and not just me.
 
 This is largely intended, as it may help coordinate path management actions better between admins. However, an option to make other admins' messages silent may be added in the future.
 
-- **Things have gone horribly wrong and nothing in the datapack seems to work anymore.**
+### Things have gone horribly wrong and nothing in the datapack seems to work anymore.
 
 If the inner logics of the datapack ever malfunctions in unexpected ways, it may be worth resetting the dummies and paths. See the [Advanced features](ADVANCED_FEATURES.md) document for more detail on how to do this.
